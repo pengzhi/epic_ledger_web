@@ -1,0 +1,27 @@
+.white-box {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    padding: 39px 19px 14px;
+    position: relative;
+}
+
+.no-bottom {
+    margin-bottom:0px;
+}
+
+.not-purchased {
+    color:#333333;
+}
+
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: right;
+    width: 180px;
+}
+
+.no-display {
+    display:none;
+}

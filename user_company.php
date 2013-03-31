@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Account &middot; Epic Ledger</title>
+    <title>Company &middot; Epic Ledger</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -62,33 +62,77 @@
         <div class="tabs-left">
             <ul class="nav nav-tabs">
                 <li><a href="user_dashboard.php">Dashboard</a></li>
-                <li class="active"><a href="user_account.php">Account</a></li>
-                <li><a href="user_company.php">Company</a></li>
+                <li><a href="user_account.php">Account</a></li>
+                <li class="active"><a href="user_company.php">Company</a></li>
             </ul>
             <div class="tab-content">
                 <form class="form-horizontal">
                     <div class="control-group">
                         <div class="controls">
-                            <legend>Edit Your Account</legend>
+                            <legend>Edit Your Company</legend>
                         </div>
                     </div>
 
                     <div class="control-group">
-                        <label class="control-label" for="inputEmail">Email</label>
+                        <label class="control-label" for="CompanyName">Company Name</label>
                         <div class="controls">
-                            <p style="padding-top:5px;">pengzhiq@gmail.com</p>
-                        </div>    
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label" for="inputPassword">Password</label>
-                        <div class="controls">
-                            <input type="password" id="inputPassword" placeholder="Password">
+                            <input type="text" id="CompanyName">
                         </div>
                     </div>
+
                     <div class="control-group">
-                        <label class="control-label" for="inputPassword">Re-type Password</label>
+                        <label class="control-label" for="Address">Address</label>
                         <div class="controls">
-                            <input type="password" id="inputPassword" placeholder="Password">
+                            <input type="text" id="Address">
+                        </div>
+                    </div>
+                    
+                     <div class="control-group">
+                        <label class="control-label" for="PhoneNumber">Phone #</label>
+                        <div class="controls">
+                            <input type="text" id="PhoneNumber">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="FaxNumber">Fax #</label>
+                        <div class="controls">
+                            <input type="text" id="FaxNumber">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="Email">E-mail</label>
+                        <div class="controls">
+                            <input type="text" id="Email">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="WebSite">Web Site</label>
+                        <div class="controls">
+                            <input type="text" id="WebSite">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="einssn">EIN/SSN</label>
+                        <div class="controls">
+                            <input type="text" id="einssn">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="FiscalYear">Fiscal Year</label>
+                        <div class="controls">
+                            <input type="text" id="FiscalYear">
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="TaxYear">Tax Year</label>
+                        <div class="controls">
+                            <input type="text" id="TaxYear">
                         </div>
                     </div>
 

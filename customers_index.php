@@ -39,15 +39,14 @@
         
         <div class="row">
             <div class="span3">
-                <ul class="nav nav-pills nav-stacked no-bottom">
+                <ul class="nav nav-pills nav-stacked">
                     <li class=""><a href="user_account.php">Account</a></li>
                 </ul>
             </div>
             <div class="span9">
-                <ul class="nav nav-tabs no-bottom">
+                <ul class="nav nav-tabs">
                 <li class="active"><a href="#">Customers</a></li>
-                <li ><a id="tab_vendors" class="not-purchased" href="#" title="Please buy the Silver package to unlock this feature">Vendors</a></li>
-                <li class="pull-right"><a href="index.php">Log Out</a></li>
+                <li ><a class="not-purchased" href="#">Vendors</a></li>
                 </ul>
             </div>
         </div>
@@ -56,21 +55,23 @@
 
             <div class="span3">
                 <ul class="nav nav-tabs nav-stacked">
-                <li class="active"><a href="customers_add.php">Bronze</a></li>
-                <li><a href="product_purchase.php">Silver</a></li>
-                <li><a href="product_purchase.php">Gold</a></li>
-                <li><a href="product_purchase.php">Diamond</a></li>
+                <li class="active"><a href="user_dashboard.php">Bronze</a></li>
+                <li><a href="product_page.php">Silver</a></li>
+                <li><a href="product_page.php">Gold</a></li>
+                <li><a href="product_page.php">Diamond</a></li>
                 </ul>
             </div>
             
             <div class="span9">
-                <div class="white-box customers-action-bar">
-                <div class="pull-right">
+                <div style="float:right">
+                <p>
                 <a href="customers_add.php" class="btn btn-primary disabled" type="button">Add +</a>
                 <a href="customers_archive.php" class="btn" type="button">Archive</a>
-                </div>
+                </p>
                 </div>
 
+                <div class="clearfix"></div>
+                
                 <div class="navbar no-bottom" style="width:100%">
                 <div class="navbar-inner">
                     <ul id="customers_ul" class="nav">

@@ -58,21 +58,29 @@
   <body>
 
     <div class="container">
-        
-        <div class="tabs-left">
-            <ul class="nav nav-tabs">
-                <li><a href="user_dashboard.php">Dashboard</a></li>
+
+        <div class="row">
+            <div class="span3">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class=""><a href="customers_add.php">Dashboard</a></li>
+                </ul>
+            </div>
+            <div class="span9">
+                <legend>Edit Your Account</legend>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="span3">
+                <ul class="nav nav-tabs nav-stacked">
                 <li class="active"><a href="user_account.php">Account</a></li>
                 <li><a href="user_company.php">Company</a></li>
-            </ul>
-            <div class="tab-content">
+                </ul>
+            </div>
+            
+             <div class="span9">
                 <form class="form-horizontal">
-                    <div class="control-group">
-                        <div class="controls">
-                            <legend>Edit Your Account</legend>
-                        </div>
-                    </div>
-
                     <div class="control-group">
                         <label class="control-label" for="inputEmail">Email</label>
                         <div class="controls">
@@ -98,8 +106,10 @@
                         </div>
                     </div>    
                 </form>
-                
-            </div>
+             </div>
+
+        </div>
+
         </div>
     
     </div> <!-- /container -->

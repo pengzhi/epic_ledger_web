@@ -76,7 +76,7 @@
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="tab1">
-                    <form class="form-signin">
+                    <form class="form-signin" action="customers_add.php">
                         <h2 class="form-signin-heading">Welcome</h2>
                         <input type="text" class="input-block-level" placeholder="Email address">
                         <input type="password" class="input-block-level" placeholder="Password">
@@ -87,7 +87,7 @@
                     </form>
                 </div>
                 <div class="tab-pane" id="tab2">
-                   <form class="form-signin">
+                   <form class="form-signin" action="customers_add.php">
                         <h2 class="form-signin-heading">Register</h2>
                         <input type="text" class="input-block-level" placeholder="Email address">
                         <input type="password" class="input-block-level" placeholder="Password">

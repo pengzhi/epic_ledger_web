@@ -10,6 +10,10 @@
     margin-bottom:0px;
 }
 
+.bottom-a {
+    margin-bottom:9px;
+}
+
 .not-purchased {
     color:#333333;
 }
@@ -24,4 +28,17 @@
 
 .no-display {
     display:none;
+}
+
+.customers-action-bar {
+height:30px;border-top:none;border-bottom:none;border-radius:0 0 0 0;padding:14px 12px 14px 12px;
+}
+
+.white-box-no-top {
+    background-color: #FFFFFF;
+    padding: 39px 19px 14px;
+    position: relative;
+    border-left:1px solid #DDDDDD;
+    border-right:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
 }

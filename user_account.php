@@ -41,6 +41,7 @@
         }
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -61,12 +62,12 @@
 
         <div class="row">
             <div class="span3">
-                <ul class="nav nav-pills nav-stacked">
+                <ul class="nav nav-pills nav-stacked no-bottom">
                     <li class=""><a href="customers_add.php">Dashboard</a></li>
                 </ul>
             </div>
             <div class="span9">
-                <legend>Edit Your Account</legend>
+                <legend class="no-bottom">Edit Your Account</legend>
             </div>
         </div>
 

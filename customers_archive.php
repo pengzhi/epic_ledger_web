@@ -48,7 +48,7 @@
             <div class="span9">
                 <ul class="nav nav-tabs no-bottom">
                 <li class="active"><a href="#">Customers</a></li>
-                <li ><a class="not-purchased" href="#">Vendors</a></li>
+                <li ><a id="tab_vendors" class="not-purchased" href="#" title="Please buy the Silver package to unlock this feature">Vendors</a></li>
                 <li class="pull-right"><a href="index.php">Log Out</a></li>
                 </ul>
             </div>
@@ -68,8 +68,8 @@
             <div class="span9">
                 <div class="white-box customers-action-bar">
                 <div class="pull-right">
-                <a href="customers_add.php" class="btn btn-primary disabled" type="button">Add +</a>
-                <a href="customers_archive.php" class="btn" type="button">Archive</a>
+                <a href="customers_add.php" class="btn btn-primary" type="button">Add +</a>
+                <a href="customers_archive.php" class="btn disabled" type="button">Archive</a>
                 </div>
                 </div>
  
@@ -86,19 +86,19 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td>ASDF</td>
-                                    <td>98475</td>
+                                    <td>04/12/2013</td>
+                                    <td>ABC Inc.</td>
+                                    <td>$50.00</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>ASDF</td>
-                                    <td>98475</td>
+                                    <td>05/21/2013</td>
+                                    <td>No Name Unlimited</td>
+                                    <td>$21.00</td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>ASDF</td>
-                                    <td>98475</td>
+                                    <td>06/08/2013</td>
+                                    <td>President's Choice</td>
+                                    <td>$15.00</td>
                                 </tr>
                                 </tbody>
                             </table>

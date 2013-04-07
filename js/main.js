@@ -8,7 +8,10 @@ $(document).ready(function() {
     $("#part4_back").epicFormGo("#custormer_part4", "#custormer_part3", "#customers_li_3");
     $("#part5_back").epicFormGo("#custormer_part5", "#custormer_part4", "#customers_li_4");
     $("#tab_vendors").tooltip({
-    "placement":"bottom"
+        "placement":"bottom"
+    });
+    $("#part5_buy").click(function(){
+        window.location = 'customers_archive.php';
     });
 });
 

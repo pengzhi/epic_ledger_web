@@ -13,6 +13,13 @@ $(document).ready(function() {
     $("#part5_buy").click(function(){
         window.location = 'customers_archive.php';
     });
+    $("#add_more_files").click(function(){
+        $("#fileupload_1").after($("#fileupload_1").clone());
+    });
+    $("#add_more_files_2").click(function(){
+        $("#fileupload_2").after($("#fileupload_2").clone());
+    });
+    
 });
 
 jQuery.fn.epicFormGo = function( toHide, toShow, activateTab) {

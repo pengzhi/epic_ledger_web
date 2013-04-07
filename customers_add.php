@@ -18,6 +18,7 @@
 
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-fileupload.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -161,14 +162,46 @@
                             </div>
                             <div class="control-group">
                                 <label class="control-label">Upload Your Invoices</label>
-                                <div class="controls">
-                                    <input type="text" class="input-medium" placeholder="click to upload">
+                                <div class="controls" style="padding-left:5px">
+
+<div id="fileupload_1" class="fileupload fileupload-new" data-provides="fileupload">
+<div class="input-append">
+<div class="uneditable-input span3">
+    <i class="icon-file fileupload-exists"></i> 
+    <span class="fileupload-preview"></span>
+</div>
+<span class="btn btn-file">
+<span class="fileupload-new">Select file</span>
+<span class="fileupload-exists">Change</span><input type="file" /></span>
+<a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
+</div>
+</div>
+
+<button id="add_more_files" class="btn btn-small" type="button">Add more files</button>
+
+
                                 </div>
                             </div>
                             <div class="control-group">
                                 <label class="control-label">Upload Your Deposit Slips</label>
-                                <div class="controls">
-                                    <input type="text" class="input-medium" placeholder="click to upload">
+                                <div class="controls" style="padding-left:5px">
+                                
+<div id="fileupload_2" class="fileupload fileupload-new" data-provides="fileupload">
+<div class="input-append">
+<div class="uneditable-input span3">
+    <i class="icon-file fileupload-exists"></i> 
+    <span class="fileupload-preview"></span>
+</div>
+<span class="btn btn-file">
+<span class="fileupload-new">Select file</span>
+<span class="fileupload-exists">Change</span><input type="file" /></span>
+<a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
+</div>
+</div>
+
+<button id="add_more_files_2" class="btn btn-small" type="button">Add more files</button>
+                                
+                                
                                 </div>
                             </div>
                             <div class="control-group">
@@ -184,22 +217,48 @@
                     </form>
 
                     <form id="custormer_part4" class="white-box form-horizontal no-display">
-                            <div class="control-group">
-                                <label class="control-label">&nbsp;</label>
-                                <div class="controls">[ list of items from previous steps.. ]</div>    
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label">&nbsp;</label>
-                                <div class="controls">&nbsp;</div>    
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label">&nbsp;</label>
-                                <div class="controls">&nbsp;</div>    
-                            </div>
-                            <div class="control-group">
-                                <label class="control-label">&nbsp;</label>
-                                <div class="controls">&nbsp;</div>    
-                            </div>                             
+
+<div class="control-group">
+<div class="controls">
+
+    <div class="alert alert-block">
+    <h5>
+        <i class="icon-star" style="vertical-align:-15%"></i>
+        Read Our Money Back Guarantee Policy
+        <i class="icon-star" style="vertical-align:-15%"></i>
+    </h5>
+    <ol>
+    <li>Nunc imperdiet aliquam urna, quis cursus massa molestie eu. Cras urna mi, laoreet sed cursus eget, auctor ut velit. Nulla faucibus ante euismod augue rutrum sit amet pharetra odio tempus.</li>
+    <li>Nullam pellentesque, felis non fringilla tincidunt, metus mauris posuere justo, eu sagittis magna tellus tristique urna. Vestibulum et arcu vel sem mattis sollicitudin.</li>
+    <li>Phasellus ac dolor risus. Sed vitae est in nibh ultrices rhoncus. Nulla dictum lectus vel mauris tincidunt facilisis.</li>
+    </ol>
+    </div>
+
+</div>
+</div>
+
+
+<div class="control-group">
+<div class="controls">
+<h5>Terms and Conditions</h5>
+</div>
+<div class="controls" style="height:200px;overflow-y:auto">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum arcu eros, ullamcorper in lacinia vitae, auctor sit amet nulla. Duis pellentesque mauris risus. 
+Pellentesque pulvinar suscipit odio, ut venenatis nulla dapibus eu. Duis sapien leo, consectetur sit amet cursus non, aliquet ac nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer eleifend arcu at lorem mollis vitae rhoncus neque laoreet. 
+Sed vehicula libero sed ante imperdiet gravida. Etiam sed cursus sem. Aenean adipiscing suscipit mollis. Nunc imperdiet arcu pellentesque sem pulvinar pharetra. Fusce a lorem mauris, ut euismod orci. In eget est eu mauris fermentum mattis et et lectus.
+
+Nunc eget dui est. Nam fermentum bibendum sem, sed venenatis turpis suscipit vel. Praesent in iaculis justo. Nulla erat orci, porttitor et mollis vitae, adipiscing vel felis. Duis scelerisque elementum ullamcorper. Cras dictum libero eu felis gravida pretium. Donec ultrices vulputate est auctor posuere. Praesent mattis, arcu eu lacinia blandit, lectus neque dignissim lectus, auctor laoreet velit massa id arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse ac enim augue. Nam id mattis purus. Suspendisse potenti.
+</div>
+</div>
+
+<div class="control-group">
+<div class="controls">
+<label class="checkbox">
+<input type="checkbox"> I Accept 
+</label>
+</div>
+</div>
+                      
                             <div class="control-group">
                                 <div class="controls">
                                     <button id="part4_back" type="button" class="btn">Back</button>
@@ -254,6 +313,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-fileupload.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
